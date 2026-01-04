@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="AutoMapper" Version="15.0.1" />
+		<PackageReference Include="StackExchange.Redis" Version="2.9.11" />
+		<PackageReference Include="Stripe.net" Version="49.0.0" />
+		<PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+		<PackageReference Include="System.Linq.Expressions" Version="4.3.0" />
+	</ItemGroup>
+
+</Project>
